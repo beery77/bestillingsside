@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Coustard:wght@900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Coustard:wght@900&family=Signika&display=swap');
+
+:root {
+  --title: 'Coustard', serif;
+  --text: 'Signika', sans-serif;
+}
+
+h1, h2 {
+    font-family: var(--title);
+}
+
+p {
+    font-family: var(--text);
+}
+
+li {
+    font-family: var(--text);
+}
+
+#kvitHeader {
+    text-align: center;
+}
+
+#visBestillinger {
+    text-align: center;
+    list-style: none;
+    font-family: var(--title);
+}
+
+button {
+    display: none;
+}
+
+#foodTracker {
+    text-align: center;
+}
+
+#map {
+    width: 400px;
+    height: 300px;
+    margin-left: 39%;
+
+}

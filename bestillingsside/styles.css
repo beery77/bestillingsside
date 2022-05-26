@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Coustard:wght@900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Coustard:wght@900&family=Signika&display=swap');
+
+:root {
+  --title: 'Coustard', serif;
+  --text: 'Signika', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: var(--title);
+}
+
+p {
+    font-family: var(--text);
+}
+
+li {
+    font-family: var(--text);
+}
+
+#kvittering {
+    font-family: var(--title);
+}
+
+img {
+    max-width: 100%;
+  }
+  
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#bestillinger {
+    background-color: silver;
+    display: flex;
+    flex-direction: column;
+}
+
+#liste {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style: none;
+}
+
+#menu {
+    padding: 2rem;
+}
+
+#salad, #burger, #cake {
+    padding: 2rem;
+}
+
+button {
+    background-color: greenyellow;
+    height: 50px;
+    width: 100px;
+    font-size: 16px;
+    font-family: var(--text);
+}
